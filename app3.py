@@ -595,5 +595,5 @@ elif page == "🤖 MLflow":
     st.markdown("👉 Open MLflow UI:")
     st.code("http://127.0.0.1:5000")
     import streamlit as st
-    st.title("Hello, Streamlit from sonalhub!")
+    st.title("Hello, Streamlit from sonalvarshneyhub!")
 
