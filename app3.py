@@ -319,7 +319,7 @@ elif page == "⏱️ Temporal Patterns":
             values=seasonal.values,
             names=seasonal.index,
             title="Crimes by Season",
-            color_discrete_sequence=px.colors.seasonal
+            color_discrete_sequence=px.colors.qualitative.Set2
         )
         st.plotly_chart(fig, use_container_width=True)
 
